@@ -1,0 +1,17 @@
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# SQLite database files if you create persistent ones
+*.sqlite
+*.sqlite3
+*.db
+
+# OS/editor files
+.DS_Store
+Thumbs.db
