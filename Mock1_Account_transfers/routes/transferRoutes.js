@@ -5,7 +5,7 @@ const controller = require("../controllers/transferController");
 
 router.post("/transfers", controller.createTransfer);
 
-// BUG: route may be incorrect
-router.get("/transfer/:id", controller.getTransfer);
+// BUG: route may be incorrect - fix9
+router.get("/transfers/:id", controller.getTransfer);
 
 module.exports = router;
